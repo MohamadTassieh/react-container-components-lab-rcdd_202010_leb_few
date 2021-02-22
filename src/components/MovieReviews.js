@@ -21,7 +21,7 @@ function MovieReviews({ reviews }) {
       <blockquote>{el.summary_short}</blockquote>
     </div>)
   })}</div>);
-} 
+}
 
 MovieReviews.defaultProps = {
   reviews: []
